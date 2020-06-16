@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Real Time GPS Tracking System</string>
+    <string name="title_activity_gps_takip">Map</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorEkranArkaplan"
+    tools:context=".hesapOlustur">
+
+    <TextView
+        android:id="@+id/tvekranTanitim"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="56dp"
+        android:text="Hesap Oluşturma Ekranı"
+        android:textAlignment="center"
+        android:textColor="@color/colorSnow"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etkullaniciAdi"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="106dp"
+        android:ems="10"
+        android:hint="Kullanıcı Adı"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorSnow"
+        android:textColor="@color/colorSnow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvekranTanitim" />
+
+    <EditText
+        android:id="@+id/etsifre"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="106dp"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorSnow"
+        android:textColor="@color/colorSnow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etkullaniciAdi" />
+
+    <EditText
+        android:id="@+id/etsifreTekrari"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="106dp"
+        android:ems="10"
+        android:hint="Şifre Tekrarı"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorSnow"
+        android:textColor="@color/colorSnow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etsifre" />
+
+    <Button
+        android:id="@+id/bhesapOlustur"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="106dp"
+        android:text="Hesap Oluştur"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etsifreTekrari" />
+
+    <TextView
+        android:id="@+id/tvgirisEkraninaDonus"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="106dp"
+        android:text="Giriş ekranına dönmek için tıklayınız."
+        android:textAlignment="center"
+        android:textColor="@color/colorSnow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bhesapOlustur" />
+</androidx.constraintlayout.widget.ConstraintLayout>

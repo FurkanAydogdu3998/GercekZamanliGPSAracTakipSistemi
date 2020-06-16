@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "640669345612",
+    "firebase_url": "https://real-time-gps-tracking-system.firebaseio.com",
+    "project_id": "real-time-gps-tracking-system",
+    "storage_bucket": "real-time-gps-tracking-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640669345612:android:22fdd9f2f267cc584ad1e9",
+        "android_client_info": {
+          "package_name": "com.example.realtimegpstrackingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640669345612-ucqrnqsmnsgnh9bdhvt7l7i1o21frj8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.realtimegpstrackingsystem",
+            "certificate_hash": "172be475b96b610442cb3b1162ac661bdffc4062"
+          }
+        },
+        {
+          "client_id": "640669345612-a0ddb8v3l33ii13sobuldf8a6nhr391n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC78KBoR2lo8ocqvserSVx0EBOFAezA0ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640669345612-a0ddb8v3l33ii13sobuldf8a6nhr391n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
